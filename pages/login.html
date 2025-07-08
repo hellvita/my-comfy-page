@@ -13,6 +13,52 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/login.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <section class="login">
+        <div class="title-container">
+          <h1 class="login__title title">Welcome~</h1>
+          <svg class="icon" width="32" height="32">
+            <use href="../images/icons.svg#pixel-heart"></use>
+          </svg>
+        </div>
+
+        <form class="login-form" name="login-form">
+          <div class="login-form-container">
+            <label class="login-form__input-label input-label" for="user-name">
+              <input
+                class="login-form__input form__input"
+                type="text"
+                placeholder="name"
+                name="user-name"
+                id="user-name"
+                required
+              />
+            </label>
+
+            <label class="login-form__input-label input-label" for="user-pwd">
+              <input
+                class="login-form__input form__input"
+                type="password"
+                placeholder="password"
+                name="user-pwd"
+                id="user-pwd"
+                required
+              />
+            </label>
+          </div>
+        </form>
+
+        <!-- TO DO: turn itnto tag button, type=submit, move to form -->
+        <!-- href="home.html" -->
+        <a href="" class="login__button">
+          <svg class="icon" width="73" height="66">
+            <use href="../images/icons.svg#bow"></use>
+          </svg>
+        </a>
+      </section>
+    </div>
+  </body>
 </html>
