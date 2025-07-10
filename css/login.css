@@ -103,7 +103,7 @@ a {
   filter: drop-shadow(0 4px 4px var(--color-shadow-light--6));
 }
 
-.login-form-container {
+.login-form {
   display: flex;
   flex-direction: column;
   gap: 8px;
