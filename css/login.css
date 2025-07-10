@@ -39,20 +39,29 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 16px;
   width: 100%;
   height: 100vh;
 }
 
 .login {
+  width: 288px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 36px;
   background-color: var(--color-pink1);
   border-radius: 46px;
   padding: 48px 24px;
   box-shadow: 0 2px 15px 11px var(--color-shadow-light--6),
     0 3px 13px 6px var(--color-shadow-dark--18);
+}
+
+@media (min-width: 1158px) {
+  .login {
+    gap: 32px;
+    width: 360px;
+  }
 }
 
 .login .title-container {
@@ -77,6 +86,13 @@ a {
   filter: drop-shadow(0 4px 4px var(--color-shadow-dark--25));
 }
 
+@media (min-width: 1158px) {
+  .login__title + .icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
 .login .title-container:hover .login__title,
 .login .title-container:focus .login__title {
   text-shadow: 0 4px 4px var(--color-shadow-light--6);
@@ -85,10 +101,6 @@ a {
 .login .title-container:hover .login__title + .icon,
 .login .title-container:focus .login__title + .icon {
   filter: drop-shadow(0 4px 4px var(--color-shadow-light--6));
-}
-
-.login-form {
-  width: 360px;
 }
 
 .login-form-container {
