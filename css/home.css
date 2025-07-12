@@ -1,5 +1,5 @@
-@import "./_default.css";
-@import "./_colors.css";
+@import "./default.css";
+@import "./colors.css";
 
 main {
   display: flex;
