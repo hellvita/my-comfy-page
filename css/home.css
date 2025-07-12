@@ -20,7 +20,7 @@ main {
   max-width: 100%;
   height: auto;
   transform: scaleX(-1);
-  filter: drop-shadow(0 0px 6px var(--color-yellow-1));
+  filter: drop-shadow(0 0px 6px var(--color-SULPHUR-YELLOW));
   transition: filter 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

@@ -1,0 +1,24 @@
+:root {
+  --color-SIGNAL-BLACK: #2c2c2c;
+
+  /* pink theme */
+  --color-PURPLE-VIOLET: #522e38;
+  --color-PIGGY-PINK: #ffe0e9;
+  --color-PIGGY-PINK--6: rgba(255, 224, 233, 0.06);
+  --color-TELEMAGENTA: #b33d72;
+  --color-TELEMAGENTA--18: rgba(179, 61, 114, 0.18);
+  --color-TELEMAGENTA--25: rgba(179, 61, 114, 0.25);
+  --color-PASTEL-VIOLET--40: rgba(163, 133, 138, 0.4);
+  --color-PASTEL-VIOLET--60: rgba(163, 133, 138, 0.6);
+
+  /* night theme */
+  --color-BLACK-BLUE: #001233;
+  --color-PIGEON-BLUE: #5f8b9b;
+  --color-SULPHUR-YELLOW: #f7d455;
+  --color-SULPHUR-YELLOW--25: rgba(247, 212, 85, 0.25);
+  --color-LIGHT-BLUE--6: rgba(169, 214, 229, 0.06);
+  --color-GREY-BLUE--18: rgba(35, 60, 69, 0.18);
+  --color-GREEN-BLUE--25: rgba(33, 72, 85, 0.25);
+  --color-IVORY--40: rgba(244, 216, 141, 0.4);
+  --color-IVORY--60: rgba(244, 216, 141, 0.6);
+}
