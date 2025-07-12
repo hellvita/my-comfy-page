@@ -21,4 +21,15 @@
   --color-GREEN-BLUE--25: rgba(33, 72, 85, 0.25);
   --color-IVORY--40: rgba(244, 216, 141, 0.4);
   --color-IVORY--60: rgba(244, 216, 141, 0.6);
+
+  /* scroll button shadow */
+  --color-LIGHT-PINK: #ffadad;
+  --color-LIGHT-IVORY: #ffd6a5;
+  --color-CREAM: #fdffb6;
+  --color-TEA-GREEN: #caffbf;
+  --color-WATERSPOUT: #9bf6ff;
+  --color-BABY-BLUE-EYES: #a0c4ff;
+  --color-VODKA: #bdb2ff;
+  --color-BRILLIANT-LAVENDER: #ffc6ff;
+  --color-WHITE: #fff;
 }

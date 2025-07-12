@@ -14,7 +14,6 @@ main {
   position: relative;
   width: 240px;
   height: 240px;
-  /* background-color: var(--color-blue-1); */
   border-radius: 10px;
 }
 
@@ -28,39 +27,39 @@ main {
 }
 
 .scroll-btn .click-area:nth-of-type(1):hover ~ .luffy {
-  filter: drop-shadow(0 0px 4px #fff);
+  filter: drop-shadow(0 0px 4px var(--color-WHITE));
 }
 
 .scroll-btn .click-area:nth-of-type(2):hover ~ .luffy {
-  filter: drop-shadow(0 0px 4px #ffadad);
+  filter: drop-shadow(0 0px 4px var(--color-LIGHT-PINK));
 }
 
 .scroll-btn .click-area:nth-of-type(3):hover ~ .luffy {
-  filter: drop-shadow(0 0px 4px #ffd6a5);
+  filter: drop-shadow(0 0px 4px var(--color-LIGHT-IVORY));
 }
 
 .scroll-btn .click-area:nth-of-type(4):hover ~ .luffy {
-  filter: drop-shadow(0 0px 4px #fdffb6);
+  filter: drop-shadow(0 0px 4px var(--color-CREAM));
 }
 
 .scroll-btn .click-area:nth-of-type(5):hover ~ .luffy {
-  filter: drop-shadow(0 0px 4px #caffbf);
+  filter: drop-shadow(0 0px 4px var(--color-TEA-GREEN));
 }
 
 .scroll-btn .click-area:nth-of-type(6):hover ~ .luffy {
-  filter: drop-shadow(0 0px 4px #9bf6ff);
+  filter: drop-shadow(0 0px 4px var(--color-WATERSPOUT));
 }
 
 .scroll-btn .click-area:nth-of-type(7):hover ~ .luffy {
-  filter: drop-shadow(0 0px 4px #a0c4ff);
+  filter: drop-shadow(0 0px 4px var(--color-BABY-BLUE-EYES));
 }
 
 .scroll-btn .click-area:nth-of-type(8):hover ~ .luffy {
-  filter: drop-shadow(0 0px 4px #bdb2ff);
+  filter: drop-shadow(0 0px 4px var(--color-VODKA));
 }
 
 .scroll-btn .click-area:nth-of-type(9):hover ~ .luffy {
-  filter: drop-shadow(0 0px 4px #ffc6ff);
+  filter: drop-shadow(0 0px 4px var(--color-BRILLIANT-LAVENDER));
 }
 
 .scroll-btn .click-area {
