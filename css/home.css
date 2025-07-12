@@ -1,3 +1,6 @@
+@import "./_default.css";
+@import "./_colors.css";
+
 main {
   display: flex;
   justify-content: center;
