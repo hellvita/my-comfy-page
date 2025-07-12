@@ -1,0 +1,155 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  width: 100%;
+  height: 100vh;
+}
+
+.scroll-btn {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  /* background-color: var(--color-blue-1); */
+  border-radius: 10px;
+}
+
+.luffy {
+  pointer-events: none;
+  max-width: 100%;
+  height: auto;
+  transform: scaleX(-1);
+  filter: drop-shadow(0 0px 6px var(--color-yellow-1));
+  transition: filter 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-btn .click-area:nth-of-type(1):hover ~ .luffy {
+  filter: drop-shadow(0 0px 4px #fff);
+}
+
+.scroll-btn .click-area:nth-of-type(2):hover ~ .luffy {
+  filter: drop-shadow(0 0px 4px #ffadad);
+}
+
+.scroll-btn .click-area:nth-of-type(3):hover ~ .luffy {
+  filter: drop-shadow(0 0px 4px #ffd6a5);
+}
+
+.scroll-btn .click-area:nth-of-type(4):hover ~ .luffy {
+  filter: drop-shadow(0 0px 4px #fdffb6);
+}
+
+.scroll-btn .click-area:nth-of-type(5):hover ~ .luffy {
+  filter: drop-shadow(0 0px 4px #caffbf);
+}
+
+.scroll-btn .click-area:nth-of-type(6):hover ~ .luffy {
+  filter: drop-shadow(0 0px 4px #9bf6ff);
+}
+
+.scroll-btn .click-area:nth-of-type(7):hover ~ .luffy {
+  filter: drop-shadow(0 0px 4px #a0c4ff);
+}
+
+.scroll-btn .click-area:nth-of-type(8):hover ~ .luffy {
+  filter: drop-shadow(0 0px 4px #bdb2ff);
+}
+
+.scroll-btn .click-area:nth-of-type(9):hover ~ .luffy {
+  filter: drop-shadow(0 0px 4px #ffc6ff);
+}
+
+.scroll-btn .click-area {
+  position: absolute;
+  /* background-color: rgba(95, 139, 155, 0.5); */
+}
+
+.scroll-btn .click-area:nth-of-type(1) {
+  width: 64%;
+  height: 36%;
+  top: 22%;
+  left: 29%;
+  border-radius: 40%;
+  transform: rotate(21deg);
+}
+
+.scroll-btn .click-area:nth-of-type(2) {
+  width: 21%;
+  height: 8%;
+  top: 14%;
+  left: 55%;
+  border-top-left-radius: 56%;
+  border-top-right-radius: 59%;
+  border-bottom-right-radius: 6%;
+  border-bottom-left-radius: 0%;
+  transform: rotate(21deg);
+}
+
+.scroll-btn .click-area:nth-of-type(3) {
+  width: 37%;
+  height: 29%;
+  top: 57%;
+  left: 34%;
+  border-radius: 40%;
+  transform: rotate(16deg);
+}
+
+.scroll-btn .click-area:nth-of-type(4) {
+  width: 14.6%;
+  height: 7.5%;
+  top: 63%;
+  left: 16%;
+  border-top-left-radius: 54%;
+  border-top-right-radius: 29%;
+  border-bottom-right-radius: 29%;
+  border-bottom-left-radius: 73%;
+  transform: rotate(5deg);
+}
+
+.scroll-btn .click-area:nth-of-type(5) {
+  width: 10%;
+  height: 17%;
+  top: 62%;
+  left: 28%;
+  border-radius: 40%;
+  transform: rotate(12deg);
+}
+
+.scroll-btn .click-area:nth-of-type(6) {
+  width: 11%;
+  height: 22%;
+  top: 50%;
+  left: 7%;
+  border-radius: 40%;
+}
+
+.scroll-btn .click-area:nth-of-type(7) {
+  width: 11.6%;
+  height: 22%;
+  top: 74%;
+  left: 65%;
+  border-radius: 40%;
+  transform: rotate(30deg);
+}
+
+.scroll-btn .click-area:nth-of-type(8) {
+  width: 13%;
+  height: 8.75%;
+  top: 48%;
+  left: 37%;
+  border-radius: 26%;
+  transform: rotate(21deg);
+}
+
+.scroll-btn .click-area:nth-of-type(9) {
+  width: 9%;
+  height: 8.75%;
+  top: 60%;
+  left: 68%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 62%;
+  border-bottom-right-radius: 107%;
+  border-bottom-left-radius: 70%;
+  transform: rotate(21deg);
+}

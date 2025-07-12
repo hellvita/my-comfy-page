@@ -1,0 +1,15 @@
+:root {
+  --color-background-night: #001233;
+  --color-blue-1: #5f8b9b;
+  --color-yellow-1: #f7d455;
+  --color-shadow-light-night--6: rgba(169, 214, 229, 0.06);
+  --color-shadow-light-night--25: rgba(247, 212, 85, 0.25);
+  --color-shadow-dark-night--18: rgba(35, 60, 69, 0.18);
+  --color-shadow-dark-night--25: rgba(33, 72, 85, 0.25);
+  --color-yellow-frame-1--40: rgba(244, 216, 141, 0.4);
+  --color-yellow-hint-1--60: rgba(244, 216, 141, 0.6);
+}
+
+body {
+  background-color: var(--color-background-night);
+}
