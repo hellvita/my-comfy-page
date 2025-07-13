@@ -130,12 +130,13 @@ main {
   font-weight: 400;
   font-size: 40px;
   color: var(--color-WATER);
-  text-shadow: 0 0 30px var(--color-SKY-BLUE);
+  text-shadow: 0 0 8px var(--color-SKY-BLUE);
 }
 
 @media (min-width: 1158px) {
   .hero__title {
     font-size: 96px;
+    text-shadow: 0 0 30px var(--color-SKY-BLUE);
   }
 }
 /* ==================================
