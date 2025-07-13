@@ -22,6 +22,15 @@
   --color-IVORY--40: rgba(244, 216, 141, 0.4);
   --color-IVORY--60: rgba(244, 216, 141, 0.6);
 
+  /* home page > section hero  */
+  --BLACK: #000;
+  --BLACK--40: rgba(0, 0, 0, 0.4);
+  --color-BLACK-BLUE--55: rgba(0, 18, 51, 0.55);
+  --color-BLACK-BLUE--65: rgba(0, 18, 51, 0.65);
+  --color-SKY-BLUE: #007cff;
+  --color-WATER: #cee5fe;
+  --color-CALAMANSI: #faf6ae;
+
   /* scroll button shadow */
   --color-LIGHT-PINK: #ffadad;
   --color-LIGHT-IVORY: #ffd6a5;

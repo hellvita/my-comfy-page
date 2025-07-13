@@ -1,23 +1,97 @@
 @import "./default.css";
 @import "./colors.css";
 
-main {
+/* main {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 16px;
   width: 100%;
   height: 100vh;
+} */
+
+main {
+  padding-top: 32px;
 }
 
-.scroll-btn {
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ==================================
+   Start of: Hero section
+   ================================== */
+.hero {
+  max-width: 1440px;
+
+  background-image: linear-gradient(
+      to bottom,
+      var(--color-BLACK-BLUE--55),
+      var(--color-BLACK-BLUE--65)
+    ),
+    url(../images/home/bg-night-pc.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0 15px 0 var(--BLACK--40);
+  margin: 0 auto;
+}
+
+/* @media (min-width: 1158px) and (min-resolution: 192dpi) */
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(../images/home/bg-night-pc@2x.jpg);
+  }
+}
+
+.hero .container {
+  position: relative;
+  padding: 174px 521px 214px 88px;
+}
+
+.hero .icon {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  filter: drop-shadow(0 0px 8px var(--color-CALAMANSI));
+  opacity: 17%;
+  transition: opacity 3000ms cubic-bezier(0, 0.71, 0.45, 0.99);
+}
+
+.hero:hover .icon,
+.hero:focus .icon {
+  opacity: 100%;
+}
+
+.hero__title {
+  font-family: "Swanky and Moo Moo", sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  color: var(--color-WATER);
+  text-shadow: 0 0 30px var(--color-SKY-BLUE);
+}
+/* ==================================
+   End of: Hero section
+   ================================== */
+
+/* ==================================
+   Start of: Page scroll button section
+   ================================== */
+
+.scroll-button {
   position: relative;
   width: 240px;
   height: 240px;
   border-radius: 10px;
 }
 
-.luffy {
+.scroll-button__img {
   pointer-events: none;
   max-width: 100%;
   height: auto;
@@ -26,48 +100,48 @@ main {
   transition: filter 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.scroll-btn .click-area:nth-of-type(1):hover ~ .luffy {
+.scroll-button .click-area:nth-of-type(1):hover ~ .scroll-button__img {
   filter: drop-shadow(0 0px 4px var(--color-WHITE));
 }
 
-.scroll-btn .click-area:nth-of-type(2):hover ~ .luffy {
+.scroll-button .click-area:nth-of-type(2):hover ~ .scroll-button__img {
   filter: drop-shadow(0 0px 4px var(--color-LIGHT-PINK));
 }
 
-.scroll-btn .click-area:nth-of-type(3):hover ~ .luffy {
+.scroll-button .click-area:nth-of-type(3):hover ~ .scroll-button__img {
   filter: drop-shadow(0 0px 4px var(--color-LIGHT-IVORY));
 }
 
-.scroll-btn .click-area:nth-of-type(4):hover ~ .luffy {
+.scroll-button .click-area:nth-of-type(4):hover ~ .scroll-button__img {
   filter: drop-shadow(0 0px 4px var(--color-CREAM));
 }
 
-.scroll-btn .click-area:nth-of-type(5):hover ~ .luffy {
+.scroll-button .click-area:nth-of-type(5):hover ~ .scroll-button__img {
   filter: drop-shadow(0 0px 4px var(--color-TEA-GREEN));
 }
 
-.scroll-btn .click-area:nth-of-type(6):hover ~ .luffy {
+.scroll-button .click-area:nth-of-type(6):hover ~ .scroll-button__img {
   filter: drop-shadow(0 0px 4px var(--color-WATERSPOUT));
 }
 
-.scroll-btn .click-area:nth-of-type(7):hover ~ .luffy {
+.scroll-button .click-area:nth-of-type(7):hover ~ .scroll-button__img {
   filter: drop-shadow(0 0px 4px var(--color-BABY-BLUE-EYES));
 }
 
-.scroll-btn .click-area:nth-of-type(8):hover ~ .luffy {
+.scroll-button .click-area:nth-of-type(8):hover ~ .scroll-button__img {
   filter: drop-shadow(0 0px 4px var(--color-VODKA));
 }
 
-.scroll-btn .click-area:nth-of-type(9):hover ~ .luffy {
+.scroll-button .click-area:nth-of-type(9):hover ~ .scroll-button__img {
   filter: drop-shadow(0 0px 4px var(--color-BRILLIANT-LAVENDER));
 }
 
-.scroll-btn .click-area {
+.scroll-button .click-area {
   position: absolute;
   /* background-color: rgba(95, 139, 155, 0.5); */
 }
 
-.scroll-btn .click-area:nth-of-type(1) {
+.scroll-button .click-area:nth-of-type(1) {
   width: 64%;
   height: 36%;
   top: 22%;
@@ -76,7 +150,7 @@ main {
   transform: rotate(21deg);
 }
 
-.scroll-btn .click-area:nth-of-type(2) {
+.scroll-button .click-area:nth-of-type(2) {
   width: 21%;
   height: 8%;
   top: 14%;
@@ -88,7 +162,7 @@ main {
   transform: rotate(21deg);
 }
 
-.scroll-btn .click-area:nth-of-type(3) {
+.scroll-button .click-area:nth-of-type(3) {
   width: 37%;
   height: 29%;
   top: 57%;
@@ -97,7 +171,7 @@ main {
   transform: rotate(16deg);
 }
 
-.scroll-btn .click-area:nth-of-type(4) {
+.scroll-button .click-area:nth-of-type(4) {
   width: 14.6%;
   height: 7.5%;
   top: 63%;
@@ -109,7 +183,7 @@ main {
   transform: rotate(5deg);
 }
 
-.scroll-btn .click-area:nth-of-type(5) {
+.scroll-button .click-area:nth-of-type(5) {
   width: 10%;
   height: 17%;
   top: 62%;
@@ -118,7 +192,7 @@ main {
   transform: rotate(12deg);
 }
 
-.scroll-btn .click-area:nth-of-type(6) {
+.scroll-button .click-area:nth-of-type(6) {
   width: 11%;
   height: 22%;
   top: 50%;
@@ -126,7 +200,7 @@ main {
   border-radius: 40%;
 }
 
-.scroll-btn .click-area:nth-of-type(7) {
+.scroll-button .click-area:nth-of-type(7) {
   width: 11.6%;
   height: 22%;
   top: 74%;
@@ -135,7 +209,7 @@ main {
   transform: rotate(30deg);
 }
 
-.scroll-btn .click-area:nth-of-type(8) {
+.scroll-button .click-area:nth-of-type(8) {
   width: 13%;
   height: 8.75%;
   top: 48%;
@@ -144,7 +218,7 @@ main {
   transform: rotate(21deg);
 }
 
-.scroll-btn .click-area:nth-of-type(9) {
+.scroll-button .click-area:nth-of-type(9) {
   width: 9%;
   height: 8.75%;
   top: 60%;
@@ -155,3 +229,6 @@ main {
   border-bottom-left-radius: 70%;
   transform: rotate(21deg);
 }
+/* ==================================
+   End of: Page scroll button section
+   ================================== */

@@ -13,16 +13,35 @@
       referrerpolicy="no-referrer"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="../css/home.css" />
     <!-- for the night theme -->
     <link rel="stylesheet" href="../css/home-night.css" />
   </head>
 
   <body>
-    <header id="header"><div class="container"></div></header>
+    <header class="header" id="header"><div class="container"></div></header>
 
     <main>
-      <div class="scroll-btn">
+      <section class="hero" id="hero">
+        <div class="container">
+          <svg class="icon" width="1350" height="408">
+            <use href="../images/icons.svg#star-set"></use>
+          </svg>
+
+          <h1 class="hero__title">
+            The most comfort place you were looking for
+          </h1>
+        </div>
+      </section>
+
+      <div class="scroll-button visually-hidden">
         <!-- TO DO: href="#footer/#header" -->
         <a href="login.html" class="click-area"></a>
         <a href="login.html" class="click-area"></a>
@@ -35,12 +54,12 @@
         <a href="login.html" class="click-area"></a>
         <img
           src="../images/home/luffy-gear-5-laughing.gif"
-          class="luffy"
+          class="scroll-button__img"
           alt="Scroll button"
         />
       </div>
     </main>
 
-    <footer id="footer"><div class="container"></div></footer>
+    <footer class="footer" id="footer"><div class="container"></div></footer>
   </body>
 </html>
