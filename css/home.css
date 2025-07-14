@@ -73,32 +73,36 @@ main {
 
 .hero .container {
   position: relative;
-  padding: 47px 43px 147px 22px;
+  padding: 55px 42px 85px 15px;
 }
 
 @media (min-width: 1158px) {
   .hero .container {
-    padding: 174px 521px 214px 88px;
+    padding: 124px 513px 297px 52px;
   }
 }
 
 .hero .icon {
   position: absolute;
-  top: 30px;
-  left: 64px;
   filter: drop-shadow(0 0px 8px var(--color-CALAMANSI));
   opacity: 17%;
   transition: opacity 3000ms cubic-bezier(0, 0.71, 0.45, 0.99);
 }
 
 .hero .icon:nth-of-type(1) {
-  top: 66px;
-  left: -9px;
+  top: 17%;
+  left: 6%;
+  width: 300px;
+  height: 230px;
+  transform: rotate(-11deg);
 }
 
 .hero .icon:nth-of-type(2) {
-  top: 30px;
-  left: 64px;
+  top: 3%;
+  left: 5.65%;
+  width: 1350px;
+  height: 580px;
+  transform: rotate(1deg);
 }
 
 @media (max-width: 1157px) {
@@ -129,6 +133,8 @@ main {
   font-family: "Swanky and Moo Moo", sans-serif;
   font-weight: 400;
   font-size: 40px;
+  line-height: 1.45;
+  letter-spacing: 0.04em;
   color: var(--color-WATER);
   text-shadow: 0 0 8px var(--color-SKY-BLUE);
 }
@@ -136,6 +142,8 @@ main {
 @media (min-width: 1158px) {
   .hero__title {
     font-size: 96px;
+    line-height: 1.35417;
+    letter-spacing: 0.04em;
     text-shadow: 0 0 30px var(--color-SKY-BLUE);
   }
 }
