@@ -71,6 +71,29 @@ main {
   }
 }
 
+@media (min-width: 700px) {
+  .hero {
+    max-width: 700px;
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(../images/home/bg-night-tablet.jpg);
+  }
+}
+
+@media (min-width: 700px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(../images/home/bg-night-tablet@2x.jpg);
+  }
+}
+
 @media (min-width: 1440px) {
   .hero {
     max-width: 1440px;
@@ -105,6 +128,12 @@ main {
   }
 }
 
+@media (min-width: 700px) {
+  .hero .container {
+    padding: 90px 236px 212px 8px;
+  }
+}
+
 @media (min-width: 1440px) {
   .hero .container {
     padding: 124px 513px 297px 52px;
@@ -127,6 +156,14 @@ main {
 }
 
 .hero .icon:nth-of-type(2) {
+  top: 0%;
+  left: 0%;
+  width: 455px;
+  height: 300px;
+  transform: rotate(0deg);
+}
+
+.hero .icon:nth-of-type(3) {
   top: 3%;
   left: 5.65%;
   width: 1350px;
@@ -134,11 +171,26 @@ main {
   transform: rotate(1deg);
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 699px) {
   .hero .icon:nth-of-type(1) {
     display: block;
   }
   .hero .icon:nth-of-type(2) {
+    display: none;
+  }
+  .hero .icon:nth-of-type(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 1439px) {
+  .hero .icon:nth-of-type(1) {
+    display: none;
+  }
+  .hero .icon:nth-of-type(2) {
+    display: block;
+  }
+  .hero .icon:nth-of-type(3) {
     display: none;
   }
 }
@@ -147,8 +199,10 @@ main {
   .hero .icon:nth-of-type(1) {
     display: none;
   }
-
   .hero .icon:nth-of-type(2) {
+    display: none;
+  }
+  .hero .icon:nth-of-type(3) {
     display: block;
   }
 }
@@ -166,6 +220,15 @@ main {
   letter-spacing: 0.04em;
   color: var(--color-WATER);
   text-shadow: 0 0 8px var(--color-SKY-BLUE);
+}
+
+@media (min-width: 700px) {
+  .hero__title {
+    font-size: 64px;
+    line-height: 1.32812;
+    letter-spacing: 0.02em;
+    text-shadow: 0 0 30px var(--color-SKY-BLUE);
+  }
 }
 
 @media (min-width: 1440px) {
