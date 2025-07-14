@@ -48,7 +48,30 @@ main {
   }
 }
 
-@media (min-width: 1158px) {
+@media (min-width: 360px) {
+  .hero {
+    max-width: 360px;
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(../images/home/bg-night-mobile-360.jpg);
+  }
+}
+
+@media (min-width: 360px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(../images/home/bg-night-mobile-360@2x.jpg);
+  }
+}
+
+@media (min-width: 1440px) {
   .hero {
     max-width: 1440px;
     background-image: linear-gradient(
@@ -60,7 +83,7 @@ main {
   }
 }
 
-@media (min-width: 1158px) and (min-resolution: 192dpi) {
+@media (min-width: 1440px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         to bottom,
@@ -76,7 +99,13 @@ main {
   padding: 55px 42px 85px 15px;
 }
 
-@media (min-width: 1158px) {
+@media (min-width: 360px) {
+  .hero .container {
+    padding: 55px 82px 139px 15px;
+  }
+}
+
+@media (min-width: 1440px) {
   .hero .container {
     padding: 124px 513px 297px 52px;
   }
@@ -105,7 +134,7 @@ main {
   transform: rotate(1deg);
 }
 
-@media (max-width: 1157px) {
+@media (max-width: 1439px) {
   .hero .icon:nth-of-type(1) {
     display: block;
   }
@@ -114,7 +143,7 @@ main {
   }
 }
 
-@media (min-width: 1158px) {
+@media (min-width: 1440px) {
   .hero .icon:nth-of-type(1) {
     display: none;
   }
@@ -139,7 +168,7 @@ main {
   text-shadow: 0 0 8px var(--color-SKY-BLUE);
 }
 
-@media (min-width: 1158px) {
+@media (min-width: 1440px) {
   .hero__title {
     font-size: 96px;
     line-height: 1.35417;
