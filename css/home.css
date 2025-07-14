@@ -130,7 +130,7 @@ main {
 
 @media (min-width: 700px) {
   .hero .container {
-    padding: 90px 236px 212px 8px;
+    padding: 98px 236px 163px 30px;
   }
 }
 
@@ -156,11 +156,11 @@ main {
 }
 
 .hero .icon:nth-of-type(2) {
-  top: 0%;
-  left: 0%;
+  top: 12%;
+  left: 4%;
   width: 455px;
-  height: 300px;
-  transform: rotate(0deg);
+  height: 330px;
+  transform: rotate(3deg);
 }
 
 .hero .icon:nth-of-type(3) {
@@ -183,7 +183,7 @@ main {
   }
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 700px) and (max-width: 1439px) {
   .hero .icon:nth-of-type(1) {
     display: none;
   }
