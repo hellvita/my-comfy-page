@@ -1,3 +1,4 @@
+/* Primary color scheme from the layout */
 :root {
   --color-SIGNAL-BLACK: #2c2c2c;
 
@@ -42,7 +43,9 @@
   --color-BRILLIANT-LAVENDER: #ffc6ff;
   --color-WHITE: #fff;
 }
-
+/* ==================================
+   Start of: Base styles
+   ================================== */
 body {
   background-color: var(--color-SIGNAL-BLACK);
 }
@@ -59,3 +62,6 @@ body {
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
+/* ==================================
+   End of: Base styles
+   ================================== */

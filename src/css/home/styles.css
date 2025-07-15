@@ -1,7 +1,7 @@
 /* Common styles */
 @import url("../reset.css");
 @import url("../base.css");
-/* comment style file below to change theme */
+/* Comment styles to change theme */
 @import url("./base-night.css");
 
 /* Sections style */

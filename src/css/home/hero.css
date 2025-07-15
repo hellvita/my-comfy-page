@@ -1,3 +1,6 @@
+/* ==================================
+   Start of: Hero section
+   ================================== */
 .hero {
   max-width: 320px;
   background-image: linear-gradient(
@@ -217,3 +220,6 @@
     text-shadow: 0 0 30px var(--color-SKY-BLUE);
   }
 }
+/* ==================================
+   End of: Hero section
+   ================================== */

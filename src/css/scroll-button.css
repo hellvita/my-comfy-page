@@ -1,3 +1,6 @@
+/* ==================================
+   Start of: Page scroll button section
+   ================================== */
 .scroll-button {
   position: relative;
   width: 240px;
@@ -143,3 +146,6 @@
   border-bottom-left-radius: 70%;
   transform: rotate(21deg);
 }
+/* ==================================
+   End of: Page scroll button section
+   ================================== */
