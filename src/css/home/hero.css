@@ -1,0 +1,219 @@
+.hero {
+  max-width: 320px;
+  background-image: linear-gradient(
+      to bottom,
+      var(--color-BLACK-BLUE--55),
+      var(--color-BLACK-BLUE--65)
+    ),
+    url(/img/home/bg-night-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0 15px 0 var(--BLACK--40);
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(/img/home/bg-night-mobile@2x.jpg);
+  }
+}
+
+@media (min-width: 360px) {
+  .hero {
+    max-width: 360px;
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(/img/home/bg-night-mobile-360.jpg);
+  }
+}
+
+@media (min-width: 360px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(/img/home/bg-night-mobile-360@2x.jpg);
+  }
+}
+
+@media (min-width: 700px) {
+  .hero {
+    max-width: 700px;
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(/img/home/bg-night-tablet.jpg);
+  }
+}
+
+@media (min-width: 700px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(/img/home/bg-night-tablet@2x.jpg);
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    max-width: 1440px;
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(/img/home/bg-night-pc.jpg);
+  }
+}
+
+@media (min-width: 1440px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        var(--color-BLACK-BLUE--55),
+        var(--color-BLACK-BLUE--65)
+      ),
+      url(/img/home/bg-night-pc@2x.jpg);
+  }
+}
+
+.hero .container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 55px 42px 85px 15px;
+}
+
+@media (min-width: 360px) {
+  .hero .container {
+    padding: 55px 82px 139px 15px;
+  }
+}
+
+@media (min-width: 700px) {
+  .hero .container {
+    padding: 98px 236px 163px 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero .container {
+    padding: 124px 513px 297px 52px;
+  }
+}
+
+.hero .icon {
+  position: absolute;
+  filter: drop-shadow(0 0px 8px var(--color-CALAMANSI));
+  opacity: 17%;
+  transition: opacity 3000ms cubic-bezier(0, 0.71, 0.45, 0.99);
+}
+
+.hero .icon:nth-of-type(1) {
+  top: 15%;
+  left: 6%;
+  width: 300px;
+  height: 230px;
+  transform: rotate(-12deg);
+}
+
+.hero .icon:nth-of-type(2) {
+  top: 12%;
+  left: 4%;
+  width: 455px;
+  height: 330px;
+  transform: rotate(3deg);
+}
+
+.hero .icon:nth-of-type(3) {
+  top: 3%;
+  left: 5.65%;
+  width: 1350px;
+  height: 580px;
+  transform: rotate(1deg);
+}
+
+@media (max-width: 699px) {
+  .hero .icon:nth-of-type(1) {
+    display: block;
+  }
+  .hero .icon:nth-of-type(2) {
+    display: none;
+  }
+  .hero .icon:nth-of-type(3) {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1439px) {
+  .hero .icon:nth-of-type(1) {
+    display: none;
+  }
+  .hero .icon:nth-of-type(2) {
+    display: block;
+  }
+  .hero .icon:nth-of-type(3) {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero .icon:nth-of-type(1) {
+    display: none;
+  }
+  .hero .icon:nth-of-type(2) {
+    display: none;
+  }
+  .hero .icon:nth-of-type(3) {
+    display: block;
+  }
+}
+
+.hero:hover .icon,
+.hero:focus .icon {
+  opacity: 100%;
+}
+
+.hero__title {
+  font-family: "Swanky and Moo Moo", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.45;
+  letter-spacing: 0.04em;
+  color: var(--color-WATER);
+  text-shadow: 0 0 8px var(--color-SKY-BLUE);
+}
+
+@media (min-width: 700px) {
+  .hero__title {
+    font-size: 64px;
+    line-height: 1.32812;
+    letter-spacing: 0.02em;
+    text-shadow: 0 0 6px var(--color-SKY-BLUE);
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero__title {
+    font-size: 96px;
+    line-height: 1.35417;
+    letter-spacing: 0.04em;
+    text-shadow: 0 0 30px var(--color-SKY-BLUE);
+  }
+}

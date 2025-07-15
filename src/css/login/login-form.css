@@ -1,6 +1,3 @@
-@import "./default.css";
-@import "./colors.css";
-
 body {
   background-color: var(--color-PURPLE-VIOLET);
 }

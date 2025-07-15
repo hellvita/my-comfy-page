@@ -1,0 +1,8 @@
+/* Common styles */
+@import url("../reset.css");
+@import url("../base.css");
+
+/* Sections style */
+@import url("./login-form.css");
+/* comment style file below to change theme */
+@import url("./login-form-night.css");
