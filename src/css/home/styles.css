@@ -5,6 +5,7 @@
 @import url("./base-night.css");
 
 /* Sections style */
+@import url("./header.css");
 @import url("./hero.css");
 @import url("./main-content.css");
 @import url("../scroll-button.css");

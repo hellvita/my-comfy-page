@@ -1,0 +1,17 @@
+.header {
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  /* TO DO: set the height property using inner content */
+  height: 60px;
+  background-color: var(--color-BLACK-BLUE);
+  box-shadow: 0 5px 15px 0 var(--BLACK--40);
+  z-index: 100;
+}
+
+@media (min-width: 700px) {
+  .header {
+    /* TO DO: set the height property using inner content */
+    height: 75px;
+  }
+}
