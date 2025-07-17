@@ -1,0 +1,11 @@
+.main-content {
+  padding-top: 150px;
+}
+
+main .container-scroll-button {
+  position: sticky;
+  width: 240px;
+  height: 240px;
+  top: 63%;
+  left: 82%;
+}
