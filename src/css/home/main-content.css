@@ -4,8 +4,24 @@
 
 main .container-scroll-button {
   position: sticky;
-  width: 240px;
-  height: 240px;
+  width: 120px;
+  height: 120px;
   top: 63%;
-  left: 82%;
+  left: 66%;
+}
+
+@media (min-width: 700px) {
+  main .container-scroll-button {
+    width: 180px;
+    height: 180px;
+    left: 74%;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .container-scroll-button {
+    width: 240px;
+    height: 240px;
+    left: 82%;
+  }
 }
