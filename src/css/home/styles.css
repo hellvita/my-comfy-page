@@ -6,8 +6,9 @@
 
 /* Sections style */
 @import url("./page-container.css");
+@import url("./header-overlay.css");
 @import url("./header.css");
 @import url("./hero.css");
-@import url("./main-content.css");
+@import url("./main-content-wrapper.css");
 @import url("../scroll-button.css");
 @import url("./footer.css");

@@ -1,7 +1,10 @@
 .footer {
+  position: sticky;
+  bottom: 0%;
   width: 100%;
   /* TO DO: set the height property using inner content */
   height: 288px;
   background-color: var(--color-BASALT-GREY);
   box-shadow: 0 0 15px 0 var(--BLACK--40);
+  z-index: 100;
 }

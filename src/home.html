@@ -27,13 +27,19 @@
 
   <body>
     <div class="page-container">
-      <load src="./partials/page-home/header.html" />
-      <main>
-        <load src="./partials/page-home/hero.html" />
-        <div class="main-content">
-          <load src="./partials/page-home/scroll-button.html" />
+      <div>
+        <div class="header-overlay">
+          <load src="./partials/page-home/header.html" />
+          <load src="./partials/page-home/hero.html" />
         </div>
-      </main>
+      </div>
+
+      <div class="main-content-wrapper">
+        <main></main>
+
+        <load src="./partials/page-home/scroll-button.html" />
+      </div>
+
       <load src="./partials/page-home/footer.html" />
     </div>
   </body>

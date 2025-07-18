@@ -1,0 +1,46 @@
+.main-content-wrapper {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 300px;
+  background-color: var(--color-COBALT-BLUE);
+  box-shadow: 0 0 15px 0 var(--BLACK--40);
+  margin: 0 auto;
+}
+
+@media (min-width: 360px) {
+  .main-content-wrapper {
+    width: 330px;
+  }
+}
+
+.container-scroll-button {
+  position: sticky;
+  width: 120px;
+  height: 120px;
+  bottom: 5%;
+  left: 66%;
+  z-index: 100;
+}
+
+@media (min-width: 700px) {
+  .main-content-wrapper {
+    width: 620px;
+  }
+  .container-scroll-button {
+    width: 180px;
+    height: 180px;
+    left: 74%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-content-wrapper {
+    width: 1150px;
+  }
+  .container-scroll-button {
+    width: 240px;
+    height: 240px;
+    left: 82%;
+  }
+}
