@@ -4,7 +4,7 @@
   height: 100vh;
 }
 
-.hero {
+.hero-img {
   position: absolute;
   width: 280px;
   aspect-ratio: 1;
@@ -12,22 +12,25 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-image: url(/img/shelter/me-and-my-inner-child.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 @media (min-resolution: 192dpi) {
-  .hero {
+  .hero-img {
     background-image: url(/img/shelter/me-and-my-inner-child@2x.png);
   }
 }
 
 @media (min-width: 700px) {
-  .hero {
+  .hero-img {
     width: 300px;
   }
 }
 
 @media (min-width: 1440px) {
-  .hero {
+  .hero-img {
     width: 350px;
   }
 }
@@ -42,6 +45,21 @@
 
 .hover-area:hover {
   cursor: pointer;
+}
+
+@media (max-width: 1109px) {
+  .hover-area {
+    display: none;
+  }
+  .hero-img:hover {
+    background-image: url(/img/shelter/me-and-my-inner-child-hover.png);
+  }
+}
+
+@media (max-width: 1109px) and (min-resolution: 192dpi) {
+  .hero-img:hover {
+    background-image: url(/img/shelter/me-and-my-inner-child-hover@2x.png);
+  }
 }
 
 .container-hero .hover-area:nth-of-type(1) {
@@ -123,12 +141,12 @@
   left: 46%;
 }
 
-.hover-area:hover ~ .hero {
+.hover-area:hover ~ .hero-img {
   background-image: url(/img/shelter/me-and-my-inner-child-hover.png);
 }
 
 @media (min-resolution: 192dpi) {
-  .hover-area:hover ~ .hero {
+  .hover-area:hover ~ .hero-img {
     background-image: url(/img/shelter/me-and-my-inner-child-hover@2x.png);
   }
 }
