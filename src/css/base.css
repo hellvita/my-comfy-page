@@ -42,6 +42,11 @@
   --color-BASALT-GREY: #5d5265;
   --color-ONYX: #392d42;
 
+  /* shelter page */
+  --color-PEARL-NIGHT-BLUE: #1d3053;
+  --color-PEARL-NIGHT-BLUE--16: rgba(29, 48, 83, 0.16);
+  --color-WHITE--30: rgba(255, 255, 255, 0.3);
+
   /* scroll button shadow */
   --color-LIGHT-PINK: #ffadad;
   --color-LIGHT-IVORY: #ffd6a5;

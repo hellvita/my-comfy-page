@@ -2,7 +2,7 @@
 @import url("../reset.css");
 @import url("../base.css");
 /* Comment styles to change theme */
-@import url("./base-night.css");
+@import url("../base-night.css");
 
 /* Sections style */
 @import url("./page-container.css");

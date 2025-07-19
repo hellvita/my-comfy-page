@@ -1,10 +1,6 @@
 /* ==================================
    Start of: Night theme
    ================================== */
-body {
-  background-color: var(--color-BLACK-BLUE);
-}
-
 .login {
   background-color: var(--color-PIGEON-BLUE);
   box-shadow: 0 2px 15px 11px var(--color-LIGHT-BLUE--6),

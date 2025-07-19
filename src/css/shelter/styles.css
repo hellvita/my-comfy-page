@@ -1,9 +1,8 @@
 /* Common styles */
 @import url("../reset.css");
 @import url("../base.css");
-
-/* Sections style */
-@import url("./login-form.css");
 /* Comment styles to change theme */
 @import url("../base-night.css");
-@import url("./login-form-night.css");
+
+/* Sections style */
+@import url("./back-button.css");
