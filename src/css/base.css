@@ -26,6 +26,9 @@
   /* home page */
   --color-COBALT-BLUE: #27324d;
 
+  /* home page > section header  */
+  --color-METALLIC-BLUE: #2e4776;
+
   /* home page > section hero  */
   --BLACK: #000;
   --BLACK--40: rgba(0, 0, 0, 0.4);

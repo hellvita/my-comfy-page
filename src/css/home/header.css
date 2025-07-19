@@ -2,8 +2,6 @@
   position: sticky;
   top: 0%;
   width: 100%;
-  /* TO DO: set the height property using inner content */
-  height: 60px;
   background-color: var(--color-BLACK-BLUE);
   box-shadow: 0 5px 15px 0 var(--BLACK--40);
   z-index: 100;
@@ -12,6 +10,34 @@
 @media (min-width: 700px) {
   .header {
     /* TO DO: set the height property using inner content */
-    height: 75px;
   }
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 65px;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.header__nav-list .link {
+  font-family: "Sniglet", sans-serif;
+  font-size: 24px;
+  line-height: 1.20833;
+  letter-spacing: 0.08em;
+  color: var(--color-WHITE);
+  text-transform: uppercase;
+  padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link.current-page {
+  color: var(--color-SULPHUR-YELLOW);
+  text-shadow: 0 0 10px var(--color-METALLIC-BLUE);
+}
+
+.header__nav-list .link:hover {
+  color: var(--color-CREAM);
+  text-shadow: 0 0 10px var(--color-METALLIC-BLUE);
 }
