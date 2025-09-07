@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const updateSrcset = (source, type) => {
       if (source && hoverPaths[type]) {
-        source.srcset = `${hoverPaths[type]["1x"]} 1x, ${hoverPaths[type]["2x"]} 2x`;
+        source.srcset = `.${hoverPaths[type]["1x"]} 1x, .${hoverPaths[type]["2x"]} 2x`;
       }
     };
 
