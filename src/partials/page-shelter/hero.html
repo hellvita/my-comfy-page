@@ -1,31 +1,40 @@
 <div class="container-hero">
-  <picture>
-    <source
-      media="(min-width: 1440px)"
-      srcset="
-        /img/shelter/inner_child__hover_pc.webp    1x,
-        /img/shelter/inner_child__hover_pc@2x.webp 2x
-      "
-    />
-    <source
-      media="(min-width: 700px)"
-      srcset="
-        /img/shelter/inner_child__hover_tablet.webp    1x,
-        /img/shelter/inner_child__hover_tablet@2x.webp 2x
-      "
-    />
-    <source
-      media="(max-width: 699px)"
-      srcset="
-        /img/shelter/inner_child__hover_mobile.webp    1x,
-        /img/shelter/inner_child__hover_mobile@2x.webp 2x
-      "
-    />
-    <img
-      class="hero-img"
-      loading="lazy"
-      src="/img/shelter/inner_child__hover_mobile.webp"
-      alt="Me and my inner child"
-    />
-  </picture>
+  <div
+    class="hero-img"
+    data-hover-desktop1x="/img/shelter/inner_child__hover_pc.webp"
+    data-hover-desktop2x="/img/shelter/inner_child__hover_pc@2x.webp"
+    data-hover-tablet1x="/img/shelter/inner_child__hover_tablet.webp"
+    data-hover-tablet2x="/img/shelter/inner_child__hover_tablet@2x.webp"
+    data-hover-mobile1x="/img/shelter/inner_child__hover_mobile.webp"
+    data-hover-mobile2x="/img/shelter/inner_child__hover_mobile@2x.webp"
+  >
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          /img/shelter/inner_child__no_hover_pc.webp    1x,
+          /img/shelter/inner_child__no_hover_pc@2x.webp 2x
+        "
+      />
+      <source
+        media="(min-width: 700px)"
+        srcset="
+          /img/shelter/inner_child__no_hover_tablet.webp    1x,
+          /img/shelter/inner_child__no_hover_tablet@2x.webp 2x
+        "
+      />
+      <source
+        media="(max-width: 699px)"
+        srcset="
+          /img/shelter/inner_child__no_hover_mobile.webp    1x,
+          /img/shelter/inner_child__no_hover_mobile@2x.webp 2x
+        "
+      />
+      <img
+        loading="lazy"
+        src="/img/shelter/inner_child__no_hover_mobile.webp"
+        alt="Me and my inner child"
+      />
+    </picture>
+  </div>
 </div>
