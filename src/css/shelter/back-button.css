@@ -16,6 +16,13 @@ body {
   z-index: 100;
 }
 
+@media (max-width: 699px) {
+  .back-button {
+    top: 3.5%;
+    right: 5%;
+  }
+}
+
 @media (min-width: 700px) {
   .back-button {
     width: 50px;
