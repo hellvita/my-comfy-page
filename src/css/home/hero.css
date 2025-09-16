@@ -39,6 +39,12 @@
   }
 }
 
+@media (min-width: 360px) and (max-width: 699px) {
+  .hero {
+    max-height: 481px;
+  }
+}
+
 @media (min-width: 360px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
